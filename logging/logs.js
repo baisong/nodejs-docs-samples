@@ -146,7 +146,7 @@ var program = module.exports = {
   deleteLog: deleteLog,
   main: function (args) {
     // Run the command-line program
-    cli.help().strict().parse(args).argv;
+    cli.help().strict().parse(args).argv; // eslint-disable-line
   }
 };
 

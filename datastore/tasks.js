@@ -154,7 +154,7 @@ function deleteTask (taskId) {
 }
 // [END delete_entity]
 
-require(`yargs`)
+require(`yargs`) // eslint-disable-line
   .demand(1)
   .command(
     `new <description>`,
